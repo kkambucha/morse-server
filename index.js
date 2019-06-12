@@ -7,7 +7,6 @@ Messages format
 
 */
 
-
 const WebsocketServer = require('ws').Server;
 const wss = new WebsocketServer({
   host: 'localhost',
